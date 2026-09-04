@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Pandora® Commander
+Name[de]=Pandora® Commander
+Comment=Zweispaltiger Dateimanager im Stil von Total Commander
+Comment[de]=Zweispaltiger Dateimanager im Stil von Total Commander
+Comment[en]=Dual-pane file manager in the style of Total Commander
+GenericName=Dateimanager
+GenericName[en]=File Manager
+Exec=pandora-commander
+TryExec=pandora-commander
+Icon=pandora-commander
+Terminal=false
+Categories=System;FileTools;FileManager;Utility;
+Keywords=Dateimanager;Dateien;Commander;Pandora;FileManager;Files;
+StartupNotify=true
+StartupWMClass=Pandora® Commander

@@ -1,0 +1,100 @@
+Pandora® Commander
+Proprietäre Lizenz
+
+Copyright © 2025–2026 AKI_SystemDown® / Pandora®. Alle Rechte vorbehalten.
+
+
+1. Geltungsbereich
+
+Diese Lizenz gilt für die Software „Pandora® Commander“ einschließlich
+sämtlichen Quellcodes, der Dokumentation, Konfigurationsdateien,
+Icons/Grafik-Assets, Übersetzungen sowie aller weiteren in diesem
+Repository enthaltenen Bestandteile (nachfolgend „die Software“).
+
+Die Software ist proprietäre, urheberrechtlich geschützte Software von
+AKI_SystemDown® / Pandora® (nachfolgend „der Rechteinhaber“). Es
+handelt sich ausdrücklich NICHT um Open-Source- oder Freie Software im
+Sinne der OSI- bzw. FSF-Definitionen.
+
+2. Einräumung von Nutzungsrechten
+
+Der Rechteinhaber räumt jeder Person, die rechtmäßig Zugang zu dieser
+Software erhalten hat, das einfache, nicht ausschließliche und nicht
+übertragbare Recht ein, die Software
+
+  a) auf eigenen oder ausdrücklich autorisierten Geräten
+     (insbesondere im Zielumfeld Raspberry Pi 4B / Kali Linux) zum
+     persönlichen oder internen betrieblichen Gebrauch auszuführen,
+  b) für den vorgenannten Zweck lokal zu installieren und zu
+     konfigurieren.
+
+Jede darüberhinausgehende Nutzung bedarf der vorherigen schriftlichen
+Zustimmung des Rechteinhabers.
+
+3. Einschränkungen
+
+Ohne vorherige schriftliche Zustimmung des Rechteinhabers ist es
+untersagt,
+
+  a) die Software oder Teile davon zu kopieren, zu verbreiten,
+     unterzulizenzieren, zu vermieten, zu verleihen oder öffentlich
+     zugänglich zu machen,
+  b) die Software zu verändern, zu übersetzen, zurückzuentwickeln
+     (Reverse Engineering), zu dekompilieren oder zu disassemblieren,
+     soweit dies nicht durch zwingendes Recht ausdrücklich erlaubt
+     ist,
+  c) Urheberrechts-, Marken- oder sonstige Schutzrechtsvermerke aus
+     der Software oder ihrer Dokumentation zu entfernen oder zu
+     verändern,
+  d) die Software oder daraus abgeleitete Werke zu verkaufen oder
+     kommerziell zu verwerten,
+  e) die Bezeichnungen „Pandora®“, „Pandora® Commander“ oder
+     „AKI_SystemDown®“ sowie zugehörige Logos und Icons außerhalb der
+     bestimmungsgemäßen Nutzung der Software zu verwenden.
+
+4. Geistiges Eigentum
+
+Alle Rechte an der Software, insbesondere Urheber-, Marken- und
+sonstige Schutzrechte, verbleiben beim Rechteinhaber. Diese Lizenz
+räumt keine Rechte an Marken, Handelsnamen oder Logos des
+Rechteinhabers ein, mit Ausnahme der zur bestimmungsgemäßen Anzeige
+der Software erforderlichen Nutzung (z. B. Anwendungssymbol,
+Fenstertitel).
+
+5. Drittkomponenten
+
+Die Software nutzt zur Laufzeit verschiedene Open-Source-Bibliotheken
+(u. a. PyQt6, py7zr, paramiko, watchdog, Pygments, Pillow, PyMuPDF –
+siehe requirements.txt / pyproject.toml). Diese Komponenten unterliegen
+weiterhin ihren jeweiligen eigenen Lizenzen, die durch diese Lizenz
+weder ersetzt noch eingeschränkt werden.
+
+6. Gewährleistungsausschluss
+
+DIE SOFTWARE WIRD „WIE SIE IST“ („AS IS“) OHNE JEGLICHE AUSDRÜCKLICHE
+ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG BEREITGESTELLT, EINSCHLIESSLICH,
+ABER NICHT BESCHRÄNKT AUF GEWÄHRLEISTUNGEN DER MARKTGÄNGIGKEIT, DER
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN
+DRITTER.
+
+7. Haftungsbeschränkung
+
+SOWEIT GESETZLICH ZULÄSSIG, HAFTET DER RECHTEINHABER NICHT FÜR
+MITTELBARE, ZUFÄLLIGE, BESONDERE ODER FOLGESCHÄDEN, DIE AUS DER
+NUTZUNG ODER DER UNMÖGLICHKEIT DER NUTZUNG DER SOFTWARE ENTSTEHEN,
+UNABHÄNGIG VON DER ANSPRUCHSGRUNDLAGE.
+
+8. Beendigung
+
+Diese Lizenz endet automatisch, sobald gegen eine ihrer Bestimmungen
+verstoßen wird. Im Falle der Beendigung ist jede Nutzung der Software
+unverzüglich einzustellen und sind sämtliche Kopien zu löschen, soweit
+keine gesetzliche Aufbewahrungspflicht entgegensteht.
+
+9. Schlussbestimmungen
+
+Sollte eine Bestimmung dieser Lizenz unwirksam sein oder werden, bleibt
+die Wirksamkeit der übrigen Bestimmungen unberührt.
+
+
+Pandora® und AKI_SystemDown® sind Kennzeichen des Rechteinhabers.

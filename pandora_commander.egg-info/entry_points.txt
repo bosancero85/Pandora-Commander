@@ -1,0 +1,2 @@
+[console_scripts]
+pandora-commander = app.main:main
