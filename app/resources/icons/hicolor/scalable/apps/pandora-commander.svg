@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Pandora® Commander – Anwendungs-Icon
+  AKI_SystemDown® / Pandora®
+
+  Stilisiertes Dual-Pane-Dateimanager-Symbol im dunklen Cyberpunk-
+  Neon-Look der Anwendung (siehe app.themes.dark_theme /
+  app.utils.icon_provider). Reines Vektor-SVG, keine externen
+  Abhängigkeiten – geeignet für den freedesktop-Icon-Theme-Pfad
+  hicolor/scalable/apps sowie als Quelle für gerasterte Varianten.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1d24"/>
+      <stop offset="1" stop-color="#101217"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232830"/>
+      <stop offset="1" stop-color="#1b1f26"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Hintergrund: abgerundetes dunkles Quadrat mit dezentem Neon-Rand -->
+  <rect x="8" y="8" width="240" height="240" rx="40" fill="url(#bg)"
+        stroke="#5b8def" stroke-opacity="0.55" stroke-width="2"/>
+
+  <!-- Linkes Panel -->
+  <rect x="28" y="40" width="90" height="176" rx="12" fill="url(#panel)"
+        stroke="#343b46" stroke-width="1.5"/>
+  <!-- Rechtes Panel -->
+  <rect x="138" y="40" width="90" height="176" rx="12" fill="url(#panel)"
+        stroke="#343b46" stroke-width="1.5"/>
+
+  <!-- Neon-Trennlinie zwischen den Panes (mit Glow) -->
+  <line x1="128" y1="36" x2="128" y2="220" stroke="#5b8def" stroke-width="3"
+        stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Dateizeilen linkes Panel -->
+  <rect x="40" y="58" width="66" height="8" rx="3" fill="#5b8def"/>
+  <rect x="40" y="76" width="52" height="6" rx="3" fill="#4a5261"/>
+  <rect x="40" y="90" width="58" height="6" rx="3" fill="#4a5261"/>
+  <rect x="40" y="104" width="44" height="6" rx="3" fill="#3fb950" fill-opacity="0.85"/>
+  <rect x="40" y="118" width="60" height="6" rx="3" fill="#4a5261"/>
+
+  <!-- Dateizeilen rechtes Panel -->
+  <rect x="150" y="58" width="66" height="8" rx="3" fill="#9a9da2"/>
+  <rect x="150" y="76" width="60" height="6" rx="3" fill="#4a5261"/>
+  <rect x="150" y="90" width="46" height="6" rx="3" fill="#e5484d" fill-opacity="0.8"/>
+  <rect x="150" y="104" width="58" height="6" rx="3" fill="#4a5261"/>
+  <rect x="150" y="118" width="50" height="6" rx="3" fill="#4a5261"/>
+
+  <!-- Fokus-Markierung im aktiven (linken) Pane -->
+  <rect x="36" y="55" width="76" height="14" rx="4" fill="#5b8def" fill-opacity="0.16"/>
+
+  <!-- Statusleiste unten, angedeutet als schmaler Neon-Balken -->
+  <rect x="28" y="196" width="90" height="4" rx="2" fill="#5b8def" fill-opacity="0.4"/>
+  <rect x="138" y="196" width="90" height="4" rx="2" fill="#5b8def" fill-opacity="0.4"/>
+</svg>
